@@ -13,6 +13,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ErrorState.msg"
   "msg/UpdatePose.msg"
   "msg/UpdateGoal.msg"
+  "msg/AgentState.msg"
 )
 
 install(DIRECTORY msg/
