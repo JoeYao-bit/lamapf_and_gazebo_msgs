@@ -14,7 +14,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/UpdatePose.msg"
   "msg/UpdateGoal.msg"
   "msg/AgentState.msg"
+  "srv/LocalGoal.srv"
+
 )
+
+
 
 install(DIRECTORY msg/
   DESTINATION share/${PROJECT_NAME}/msg
